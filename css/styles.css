@@ -117,15 +117,20 @@ a {
 
 .contact-information-link:hover,
 .contact-information-link:focus,
-.contact-information-link:focus .header-icon, 
-.contact-information-link:hover .header-icon{
+.contact-information-link:hover .header-icon,
+.contact-information-link:focus .header-icon {
     color: var(--color-focus);
-    fill: rgba(33, 150, 243, 1)
+    fill: var(--color-focus) ;
 }
 
 .header-icon{
     fill: rgba(117, 117, 117, 1);
     margin-right: 10px;
+}
+
+.header-icon:hover,
+.header-icon:focus{
+    fill: rgba(33, 150, 243, 1);
 }
 
 /* =============== HERO ===============*/
